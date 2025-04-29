@@ -1,10 +1,37 @@
-export default function Contact() {
-  return (
-    <main style={{ padding: '2rem' }}>
-      <h1>Contact & Request a Quote</h1>
-      <p>Phone: (555) 555-5555</p>
-      <p>Email: info@example.com</p>
-      <p>Send us a message and we’ll get back to you within 24 hours!</p>
-    </main>
-  );
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us | Contactez-nous</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Le Groupe AGP inc.</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home / Accueil</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact / Soumission</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <h2>Contact Us / Demandez une Soumission</h2>
+    <form action="thank-you.html">
+      <input type="text" placeholder="Name / Nom" required>
+      <input type="email" placeholder="Email" required>
+      <input type="tel" placeholder="Phone / Téléphone" required>
+      <textarea placeholder="Message / Message" required></textarea>
+      <button type="submit">Send / Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Le Groupe AGP inc.</p>
+  </footer>
+</body>
+</html>
